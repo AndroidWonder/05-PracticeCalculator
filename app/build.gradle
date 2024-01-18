@@ -3,9 +3,10 @@ plugins {
 }
 
 android {
-    compileSdk 33
+
 
     defaultConfig {
+        compileSdk 33
         applicationId "com.course.example.practicecalculator"
         minSdk 26
         targetSdk 33
@@ -25,7 +26,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
-    buildToolsVersion '33.0.1'
+
     namespace 'com.course.example.practicecalculator'
 }
 
